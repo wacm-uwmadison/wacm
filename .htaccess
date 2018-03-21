@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteRule ^officer-wiki(/.*)?$ officer-wiki-internals/index.php [PT,L,QSA]
+RewriteRule ^wiki(/.*)?$ wiki-internals/index.php [PT,L,QSA]
+
+RewriteRule ^wordpress/index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^wordpress/.+$ wordpress/index.php [L]

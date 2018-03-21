@@ -1,0 +1,26 @@
+<!--#include virtual="includes/header.shtml" -->
+<!--#include virtual="includes/left_sidebar.shtml" -->
+
+<!-- 	CONTENT -->
+<div class="content1">
+
+    <!-- Page title -->		
+    <div class="content1-pagetitle">Administrative Resources</div>			
+
+    <!-- Text container -->
+    <div class="content1-container line-box">
+        <div class="content1-container-1col">
+
+            <div class="content-title-noshade-size1">
+                <!--<div class="content-txtbox-noshade">-->
+                    <ul>
+                        <li><a href="/wacm/docs/wacm_bylaws.pdf">WACM Bylaws</a></li>
+                        <li><a href="/wacm/docs/reimbursement_form.pdf">WACM reimbursement form</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--#include virtual="includes/right_sidebar.shtml" -->
+<!--#include virtual="includes/footer.shtml" -->

@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<!--
+	Retrospect by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+	Originally modified by Alayna Truttmann (January 2017) for WACM's UW-Madison Chapter.
+-->
+<html>
+	<head>
+		<title>Get Involved</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<style>
+			.mySlides {display:none}
+			.w3-left, .w3-right, .w3-badge {cursor:pointer}
+			.w3-badge {height:13px;width:13px;padding:0}
+		</style>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		
+		<!--Favicon-->
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="assets/favicon/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="assets/favicon/favicon-16x16.png" sizes="16x16">
+		<link rel="manifest" href="assets/favicon/manifest.json">
+		<link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#1193ce">
+		<meta name="msapplication-TileColor" content="#2b5797">
+		<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+	</head>
+	<body>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+				
+				<!-- Nav -->
+				<ul class="nav">
+					<li><a href="index.html" class="first">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="join.html" class="current">Get Involved</a></li>
+					<li><a href="resources.html">Resources</a></li>
+				</ul>
+
+				<section class="banner">
+					<h1>Get Involved</h1>
+				</section>
+				
+				<section class="wrapper style_page">					
+					
+					<h2>Join Us!</h2>
+					<p>The best way to get involved in WACM is to attend our <a href="events.html">events</a>. We typically host a variety of events throughout the year, including visits to tech offices such as Epic and Google, attending the Grace Hopper Celebration of Women in Computing, 
+					meals with distinguished women in the tech field, informational sessions on Linux, club brunches, social lunches, and mentoring events.</p>
+					
+					<!--Photo Slideshow Begins-->
+					<div class="w3-content w3-display-container" style="max-width:1100px">
+						<img class="mySlides" src="images/CS_awards_2.jpg" style="width:100%">
+						<img class="mySlides" src="images/Zainab.jpg" style="width:100%">
+						<img class="mySlides" src="images/SpeakerPanel2.jpg" style="width:100%">
+						<img class="mySlides" src="images/LaBrioche2.jpg" style="width:100%">
+						<img class="mySlides" src="images/ProspectiveStudents.jpg" style="width:100%">
+						<img class="mySlides" src="images/Target.jpg" style="width:100%">
+						<div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+							<div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+							<div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+							<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+							<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+							<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+							<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+							<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+							<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
+						</div>
+					</div>
+					
+					<script>
+						var slideIndex = 1;
+						showDivs(slideIndex);
+
+						function plusDivs(n) {
+							showDivs(slideIndex += n);
+						}
+
+						function currentDiv(n) {
+							showDivs(slideIndex = n);
+						}
+
+						function showDivs(n) {
+							var i;
+							var x = document.getElementsByClassName("mySlides");
+							var dots = document.getElementsByClassName("demo");
+							if (n > x.length) {slideIndex = 1}    
+							if (n < 1) {slideIndex = x.length}
+							for (i = 0; i < x.length; i++) {
+								x[i].style.display = "none";  
+							}
+						  
+							for (i = 0; i < dots.length; i++) {
+								dots[i].className = dots[i].className.replace(" w3-white", "");
+							}
+							x[slideIndex-1].style.display = "block";  
+							dots[slideIndex-1].className += " w3-white";
+						}
+					</script>
+					<!--Photo Slideshow Ends-->
+					
+					<br><br>
+					
+					<h3>Mailing List</h3>
+					<p>Join our (low volume) mailing list for announcements of upcoming events and so forth. The list is maintained by the <a href="http://www.csl.cs.wisc.edu/" target="_blank">CSL</a> using the <a href="http://www.gnu.org/software/mailman/" target="_blank">Mailman</a> program.
+					You can subscribe to the list by going to the <a href="https://lists.cs.wisc.edu/mailman/listinfo/wacm" target="_blank">subscription page</a>. Please subscribe with your wisc.edu or cs.wisc.edu email address.
+					
+					<h3>Slack</h3>
+					<p>Get in touch with other WACM members on Slack! If you're unfamiliar with it, Slack is a messaging tool for organizations. If you have questions about searching for jobs or internships, attending the Grace Hopper Conference, or computer science/school in general this is the place to ask.
+					Sign up <a href="http://wacm.slack.com/signup">here</a> with your wisc.edu or cs.wisc.edu email.
+					</p>
+					
+					<h3>Mentoring Program</h3>
+					<p>We pair CS grad student mentors and ungrad mentees to connect mentees with a person to consult for computer science information (e.g. opportunities in CS, various sub-fields of CS, industry vs. graduate school, etc) and help them build a network of peers in computer
+					science. WACM mentoring events will help you meet other women in the CS department, learn about CS, and of course, have fun! For more information, contact the <a href="about.html">Mentoring Co-Chairs</a>.</p>
+					
+					<h3>Grace Hopper Celebration Scholarship</h3>
+					<p>WACM provides scholarships for women to attend the <a href="http://ghc.anitaborg.org/" target="_blank">Grace Hopper Celebration of Women in Computing</a>. It is the world's largest gathering of women technologists and truly an incredible experience to learn more about the technology industry and network with other amazing women. Make sure to apply at the end of spring semester!</p>
+					
+				</div>
+				
+				</div>
+				
+			<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.facebook.com/WACM.UWMadison/" class="icon fa-facebook" target="_blank">
+							<span class="label">Facebook</span>
+						</a></li>
+						<li><a href="https://twitter.com/wacm_uwm/" class="icon fa-twitter" target="_blank">
+							<span class="label">Twitter</span>
+						</a></li>
+						<li><a href="https://www.instagram.com/uw.wacm/" class="icon fa-instagram" target="_blank">
+							<span class="label">Instagram</span>
+						</a></li>
+					</ul>
+					<ul class="copyright">
+						<li>Original Design: <a href="http://templated.co/" target="_blank">TEMPLATED</a>.</li>
+						<li>Website Technical Contact: <a href="about.html">WACM's Web Mistress</a>.</li>
+					</ul>
+				</div>
+			</footer>	
+		</section>
+	</body>
+</html>

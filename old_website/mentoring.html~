@@ -1,0 +1,31 @@
+<!--#include virtual="includes/header.shtml" -->
+<!--#include virtual="includes/left_sidebar.shtml" -->
+
+<!-- 	CONTENT -->
+<div class="content1">
+
+    <!-- Text container -->
+    <div class="content1-pagetitle">WACM Mentoring Program</div>		
+    <div class="content1-container line-box">
+        <div class="content1-container-1col">
+
+            <!--<p class="content-subtitle-noshade-size1">Experience freedom</p>-->
+            <div class="content-txtbox-noshade">
+                <p>The WACM Mentoring Program was started in the spring semester of 2010. We are currently
+                accepting new students interested in both mentoring and having a mentor. If you sign up to have
+                a mentor, you will be paired with a CS graduate student mentor. Your mentor will be a friendly
+                person to consult for computer science information (e.g. opportunities in CS, various sub-fields
+                of CS, industry vs. graduate school, etc) and help you build a network of peers in computer
+                science. You will be invited to WACM mentoring events to help you to meet other women in the
+                CS department, learn about CS, and of course, have fun!</p>
+
+                <p>To find your mentor contact the
+                <a href="officers.html">Mentoring Chair</a>.</p>
+
+                <!--<p class="readmore">| 15.05.2006 | <a href="#">Read more</a> | <a href="#">Print</a> |</p>-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--#include virtual="includes/right_sidebar.shtml" -->
+<!--#include virtual="includes/footer.shtml" -->

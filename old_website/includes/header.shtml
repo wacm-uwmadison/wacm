@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+    <!-- Recommended XHTML-Editor: HTML-Kit 292 (Freeware) -->
+    <!-- http://www.chami.com/html-kit/download/ -->
+
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+        <meta name="description" content="University of Wisconsin-Madison's student chapter of ACM-W" />
+        <meta name="keywords" content="WACM, ACM, University of Wisconsin-Madison" />
+        <meta name="author" content="Fatemah Panahi" />
+        <link rel="stylesheet" type="text/css" media="screen,projection" href="/wacm/css/style_screen.css" />
+        <link rel="stylesheet" type="text/css" media="print" href="/wacm/css/style_print.css" />
+        <title>WACM</title>
+    </head>
+
+    <body>
+        <div class="page-container-1">
+
+            <!-- Sitename -->
+            <div class="site-name">
+                <p class="title"><a href="/wacm/index.html"></a></p>
+                <p class="subtitle"><a href="/wacm/index.html"><!--University of Wisconsin-Madison's student chapter of ACM-W--></a></p>
+            </div>
+
+            <!-- Header banner -->		 						    		 						
+            <div><img class="img-header" src="/wacm/img/wacm_header.PNG" alt=""/></div>		
+
+            <!-- Buffer after header -->    
+            <div class="buffer"></div>
+
