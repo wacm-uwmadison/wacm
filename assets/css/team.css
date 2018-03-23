@@ -97,3 +97,8 @@ a:hover{
 i.red{
     color:#BC0213;
 }
+.thumb{
+	width: 300px;
+    height: 300px;
+    display: block;
+}
