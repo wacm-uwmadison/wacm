@@ -167,7 +167,7 @@
 	
 		ul.nav li a.current {
 			color: #1193CE;
-			border-bottom: 3px solid #1193CE;
+			text-decoration: underline;
 		}
 		
 			ul.nav li a.current.first {
