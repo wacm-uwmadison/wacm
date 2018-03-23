@@ -30,6 +30,7 @@ h2 {
 
 .blog .card-block {
     padding: 15px;
+
 }
 
 .btn.btn-default {
@@ -41,4 +42,12 @@ h2 {
     font-size: 13px;
     font-weight: 600;
     margin-top: 10px;
+}
+
+.card .card-block {max-height:200px;overflow:auto;}
+
+.card-img-top{
+    
+    height: 200px;
+    display: block;
 }
