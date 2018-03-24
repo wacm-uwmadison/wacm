@@ -62,16 +62,17 @@ h6.description{
 }
 .img-box ul li{
 	width: 30px;
-    height: 30px;
+	height: 30px;
+	border-radius: 100%;
     text-align: center;
-	border: 1px solid #88C425;
-	background-color: #1193CE;
+	
+	background-color: #fff;
     margin: 2px;
     padding: 5px;
 	display: inline-block;
 }
 .img-box a{
-	color:#fff;
+	color:rgb(18, 158, 223);
 }
 .img-box:hover:after{
 	opacity: 1;
