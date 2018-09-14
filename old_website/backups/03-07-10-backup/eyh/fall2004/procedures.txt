@@ -1,0 +1,20 @@
+procedure logo
+  repeat steps, slogo
+end
+
+procedure spiral
+  repeat 100, spiralhelper
+end
+
+procedure slogo
+  repeat 50, nothing
+  go 1
+end
+
+procedure spiralhelper
+  goto logo, steps = loop
+  rt 50
+end
+
+procedure nothing
+end

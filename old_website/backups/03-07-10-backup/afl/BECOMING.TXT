@@ -1,0 +1,1658 @@
+Becoming a computer scientist: a report by the ACM committee on
+
+ the status of women in computing science.
+
+
+
+Authors:    Pearl, Amy; Pollack, Martha E.; Riskin, Eve; Thomas, Becky; Wolf,
+
+           Elizabeth; Wu, Alice.
+
+
+
+Journal:  Communications of the ACM, Nov. 1990, v33, n11, p47-58.
+
+
+
+FULL TEXT COPYRIGHT Association for Computing Machinery, 1990.
+
+Distributed with permission.
+
+
+
+*Note*    Only Text is presented here; see printed issues for graphics.
+
+Full Text:
+
+
+
+BECOMING A COMPUTER SCIENTIST
+
+
+
+It is well known that women are significantly underrepresented in scientific
+
+fields in the United States, and computer science is no exception.  As of
+
+1987-1988, women constituted slightly more than half of the U.S.  population
+
+and 45% of employed workers in the U.S., but they made up only 30% of
+
+employed computer scientists.  Moreover, they constituted only 10% of
+
+employed doctoral-level computer scientists.  During the same time period,
+
+women made up 20% of physicians and, at the doctoral level, 35% of
+
+psychologists, 22% of life scientists, and 10% of mathematicians employed in
+
+the U.S.  On the other hand, there are some disciplines in which women
+
+represent an even smaller proportion at the doctoral level: in 1987-88, 8% of
+
+physical scientists, and only 2.5% of engineers were women [21].  [1]  The
+
+underrepresentation of women in computer science is alarming for at least two
+
+reasons.  First, it raises the disturbing possibility that the field of
+
+computer science functions in ways that prevent or hinder women from becoming
+
+part of it.  If this is so, those in the discipline need to evaluate their
+
+practices to ensure that fair and equal treatment is being provided to all
+
+potential and current computer scientists.  Practices that exclude women are
+
+not only unethical, but they are likely to thwart the discipline's progress,
+
+as potential contributors to the field are discouraged from participation.
+
+
+
+The second reason for concern about the underrepresentation of women in
+
+computer science relates to demographic trends in the U.S., which suggest a
+
+significant decrease in the number of white males entering college during the
+
+next decade.  At the same time, the number of jobs requiring scientific or
+
+engineering training will continue to increase.  Because white males have
+
+traditionally constituted the vast majority of trained scientists and
+
+engineers in this country, experts have predicted that a critical labor
+
+shortage is likely early in the next century [4, 25].  To confront this
+
+possibility, the federal government has begun to expend resources to study
+
+the problem further.  A notable example is the establishment of a National
+
+Task Force on Women, Minorities, and the Handicapped in Science and
+
+Technology.  Their final report, issued in December of 1989, lists a number
+
+of government and industrial programs aimed at preventing a labor shortage by
+
+increasing the number of women and minorities trained as scientists and
+
+engineers [5].
+
+
+
+In light of these facts, the Committee on the Status of Women in Computer
+
+Science, a subcommittee of the ACM's Committee on Scientific Freedom and
+
+Human Rights, was established with the goal of studying the causes of women's
+
+continued underrepresentation in the field, and developing proposed solutions
+
+to problems found.  It is the committee's belief that the low number of women
+
+working as computer scientists is inextricably tied up with the particular
+
+difficulties that women face in becoming computer scientists.
+
+
+
+Studies show that women in computer science programs in U.S.  universities
+
+terminate their training earlier than men do.  Between 1983 and 1986 (the
+
+latest year for which we have such figures) the percentage of bachelor's
+
+degrees in computer science awarded to women was in the range of 36-37%,
+
+while the percentage of master's degrees was in the range of 28-30%.  During
+
+the same time span, the percentage of doctoral degrees awarded to women has
+
+only been in the range of 10-12%, and it has remained at that level, with the
+
+exception of a slight increase in 1989 [16, 21].  Moreover, the discrepancy
+
+between the numbers of men and women continues to increase when we look at
+
+the people who are training the future computer scientists: women currently
+
+hold only 6.5% of the faculty positions in the computer science and computer
+
+engineering departments in the 158 Ph.D.-granting institutions included in
+
+the 1988-1989 Taulbee Survey (See Communications September 1990).  In fact, a
+
+third of these departments have no female faculty members at all [16].  This
+
+pattern of decreasing representation is generally consistent with that of
+
+other scientific and engineering fields [4, 25].  It is often described as
+
+"pipeline shrinkage": as women move along the academic pipeline, their
+
+percentage continue to shrink.
+
+
+
+The focus of this report is pipeline shrinkage for women in computer science.
+
+We describe the situation forwomen at all stages of training in computer
+
+science, from the precollege level through graduate school.  Because many of
+
+the problems discussed are related to the lack of role models for women who
+
+are in the process of becoming computer scientists, we also concern ourselves
+
+with the status of women faculty members.  We not only describe the problems,
+
+but also make specific recommendations for change and encourage further study
+
+of those problems whose solutions are not yet well understood.
+
+
+
+Of course, our focus on computer science in the university by no means
+
+exhausts the set of issues that are relevant to an investigation of women in
+
+computer science.  Most notably, we do not directly address issues that are
+
+of concern exclusively or primarily to women in industry.  Although some of
+
+the problems we discuss are common to all women computer scientists, there
+
+are, without doubt, other problems that are unique to one group or the other.
+
+Nonetheless, the committee felt that an examination of the process of
+
+becoming a computer scientist provided a good starting point for a wider
+
+investigation of women in the field.  Clearly, to increase the number of
+
+women in industrial computer science, one must first increase the number of
+
+women trained in the discipline.  Thus, we need to consider why women stop
+
+their training earlier than men: too few women with bachelor's degrees in
+
+computer science translates into too few women in both industry and academia.
+
+Moreover, because of the documented positive effects of same-sex role models
+
+[12], it is also important to consider why women drop out in higher numbers
+
+than do men even later in their academic training: too few women with
+
+doctorate degrees results in too few women faculty members.  This in turn
+
+means inadequate numbers of role models for younger women in the process of
+
+becoming computer scientists.
+
+
+
+What is Special about
+
+Computer Science?
+
+
+
+There are many professions in which women are underrepresented.  Indeed, as
+
+we noted earlier, underrepresentation of women is a fact in most scientific
+
+disciplines, and the pipeline shrinkage pattern seen in computer science is
+
+common to most sciences.  Thus, one of the first questions we need to ask is:
+
+what, if anything, is different about computer science?  Are there any
+
+special characteristics of the discipline that lead to unusual problems for
+
+women?  Studies addressing these questions have been undertaken by both
+
+computer scientists and social scientists, and have identified cultural
+
+factors that are significant contributors to women's special experience in
+
+computing.  These factors range from influences present in elementary-school
+
+educational software through the experiences of computer science graduate
+
+students.
+
+
+
+Computers are encountered today by most children in this country more so than
+
+the artifacts of other science and engineering fields, even if they never
+
+study computer science in a formal educational setting.  The earliest
+
+computer artifacts that children encounter are not gender neutral.
+
+Recreational and educational software programs reflect the gender biases and
+
+stereotypes of their designers, and studies reveal that educational software
+
+is generally designed to appeal to boys.  For a host of reasons that are
+
+beyond the scope of this report, girls and boys have been shown to prefer
+
+different kinds of software programs.  It is thus disturbing that, in an
+
+experimental setting, teachers instructed to design software for students
+
+tended to build programs that have the characteristics that boys prefer, and
+
+few characteristics that girls prefer--even when they are aware of these
+
+differences [13].
+
+
+
+In addition to abstract characteristics of software use, the cultural values
+
+embedded in educational software and computer games that target adolescents
+
+almost exclusively reflect what is commonly identified as adolescent male
+
+culture.  The predominant themes of recreational computer games are war,
+
+battles, crimes, destruction, and traditionally male-oriented sports and
+
+hobbies [14].  Thus, it is not surprising that boys use computers in courses
+
+and summer camps bothearlier and more often than do girls.
+
+
+
+Experience in computer use, and a resulting comfort with and affinity for
+
+computing, have a strong effect on the stsudy of computer science in the
+
+university.  When college students encounter computer science, they already
+
+perceive its strong cultural component.  Those who are knowledgeable about
+
+computers are differentiated by special names (wizards, hackers, wheels), and
+
+are expected to have distinguishing characteristics, language, and behaviors.
+
+This "hacker elite" system, along with th relatively new academic structure
+
+of computer science which may seem chaotic and confusing to students, results
+
+in many "computing dropouts" who are alienated by the foreign culture [23].
+
+Of course, these problems may affect male as well as female students, but the
+
+situation is likely to be more pronounced for females who, because of the
+
+differences in early experiences with computers, are less likely to be a part
+
+of the elite.
+
+
+
+The cultural factors we have described thus far appear to have an effect even
+
+on women who are making their way successfully through the computer science
+
+pipeline.  A study of doctoral students in a world-class computer science
+
+department found that while male and female students exhibited comparable
+
+performance quality in their studies, the women students felt much less
+
+comfortable, confident, and successful than did the men [3].
+
+
+
+It is important to acknowledge the significance of cultural influences in the
+
+acceptance and success of women in computer science.  The studies we referred
+
+to show that there are a number of aspects of the computer science culture
+
+that may act against women.  Unfortunately, there are no easy solutions to
+
+this problem.  There are a few specific and obvious recommendations that can
+
+be made; for instance, more educational software appealing to girls should be
+
+developed.  Similarly, educators and educational institutions must make a
+
+concerted effort to ensure equal access to computers for boys and girls.
+
+However, more far-reaching solutions are less tangible.  What appears to be
+
+needed is increased sensitivity on the part of male computer scientists to
+
+their female students and colleagues, an increased awareness by women so that
+
+they will not be easily discouraged, and quite simply, an increased number of
+
+women in the field.
+
+
+
+In addition to the cultural barriers women face, they also encounter issues
+
+of physical safety.  This is because, as is also the case for those in the
+
+laboratory sciences, computer scientists must often be at their workplace
+
+after dark.  This is particularly true of students who often do not have
+
+computers or terminals at home.  The inability to use public terminal areas
+
+after hours not only makes it difficult to complete one's assignments, but
+
+also precludes informal interactions with other students, an integral part of
+
+one's education.  For more senior computer scientists after hours access to
+
+sophisticated computing systems that cannot be duplicated at home may be
+
+necessary.
+
+
+
+All computer scientists, male and female, require safe access to the
+
+workplace, particularly at night.  Yet, for obvious reasons, such access is
+
+even more essential for women.  Availability of a well-lit, short route to
+
+the office from well-lit, safe parking and a sense of safety in the
+
+department at night are crucial.  It is accepted academic and professional
+
+practice to work at night, and women should be able to do so safely.  As
+
+noted previously, working at home is not always possible.  If working at
+
+night in the department or on public terminals is not feasible, a woman's
+
+working hours are restricted to a subset of those available to her male
+
+colleagues.  As one woman professor put it, "in many places it is a real
+
+problem to do work at night for security reasons, but it is a necessity for
+
+professional reasons" [16, p. 32].
+
+
+
+One partial solution to this problem is to make campus administrators aware
+
+of the issue, so that they will address it when planning new buildings and
+
+parking areas.  Also useful are services that provide escorts for those
+
+walking around campus after dark.  In addition, because the issue of safety
+
+inside the office at night is equally important, it is crucial that safety
+
+procedures such as keeping the building locked at night always be followed.
+
+Consciousness-raising within computer science departments may help guarantee
+
+that safety procedures are developed and consistently followed.  Finally, we
+
+should find ways to take advantage of the fact that much computer science
+
+research can be done remotely.  One recommendation is that funding agencies,
+
+such as the National Science Foundation (NSF), provide small grants to female
+
+professors to purchase terminals or workstations, printers, and modems for
+
+home use, to redress partially the problem of unequal access to resources
+
+[16, p. 32].  Male and female faculty advising female graduate students might
+
+also find ways to loan such equipment to them.  Access to computing equipment
+
+at home can also help women who are attempting to balance their careers with
+
+family responsibilities that require them to be home in the evenings.  As we
+
+will describe, the conflict between these two sets of responsibilities is
+
+another source of difficulty for many women.
+
+
+
+Other Obstracies for Women
+
+
+
+Previously we described special characteristics of our discipline that
+
+present challenges to women who are attempting to become computer scientists
+
+or whose are training future computer scientists.  The majority of obstacles
+
+for women in the discipline are also shared by other women scientists and
+
+engineers, and to a lesser degree, by all other women employed outside the
+
+home.  In our view, there are four primary and interrelated challenges facing
+
+women:
+
+
+
+* Difficulties with self-esteem,
+
+
+
+* Lack of mentoring and role models,
+
+
+
+* Gender discrimination, and
+
+
+
+* Difficulties balancing career and family responsibilities.
+
+
+
+We discuss each of these problems in turn, attempting again to suggest ways
+
+to combat them.  If course, since these problems are not unique to women
+
+becoming computer scientists, the soltions we propse may also hve wider
+
+applicability.
+
+
+
+Diminished Self-Esteem
+
+
+
+Several studies of college students have shown that women experience a much
+
+greater lack of self-esteem during their college years than do men.  In the
+
+1988 American Association for the Advancement of Science Presidential Lecture
+
+[25], Sheila Widnall noted that a recent survey of graduate students in
+
+medicine, science, and engineering at Stanford University [26] found that
+
+"that women were indistinguishable from the men in objective measures of
+
+preparation, career aspirations, and performance in graduate school.  They
+
+differed significantly in their perceptions of their preparation for graduate
+
+study, in the pressures and roadblocks that they experienced, and in the
+
+strategies that they developed for coping with these pressures.  .  .  .  30%
+
+of the women versus 15% of the men questioned their ability to handle the
+
+work; 27% versus 12% found criticism difficult to accept; only 30% of the
+
+women versus 57% of the men felt confident speaking up in class; and 33
+
+versus 9% feared that speaking up would reveal their inadequacies [25, pp.
+
+1741, 1744]."
+
+
+
+Widnall also reports on the Illinois Valedicatorian Project, which followed
+
+80 high school valedictorians (46 women, 34 men) through their college years
+
+[1].  At the end of their college careers, the women had a slightly higher
+
+final grade point average than the men (3.6 vs.  3.5).  But the women had
+
+experienced a significantly higher loss of self-esteem.  As high school
+
+seniors, about 20% of both men and women ranked themselves as "far above
+
+average," and about 45% as "above average."  As college sophomores, about 20%
+
+of the men thought they were "far above average," as opposed to about 3% of
+
+the women; about 50% of the men and a little more than 40% of the women
+
+ranked themselves "above average."  By their senior year, 25% of the men and
+
+none of the women thought they were "far above average," with about 55% of
+
+the men and 70% of the women considering themselves "above average."
+
+Overall, the self-confidence of the men increased slightly during college,
+
+while that of the women decreased significantly.
+
+
+
+It seems clear that the diminished self-esteem of female college students
+
+contributes to the pipeline shrinkage problem.  Indeed, while the studies
+
+that Widnall reports on refer to self-esteem problems of undergraduates,
+
+similar problems may be even more significant at the graduate level, where
+
+students receive primarily subjective feedback from their advisors and peers,
+
+as opposed to the more objective feedback of test scores and course grades
+
+available to undergraduates.  An additional complicating factor is the
+
+differing communication styles of men and women.  Studies have shown that in
+
+group settings, women are interrupted more frequently than men, and their
+
+contributions are often either attributed to men or ignored altogether [10,
+
+11, 25].  Such experiences are likely to exacerbate an existing lack of
+
+self-confidence.
+
+
+
+Diminished self-esteem may well cause a woman to not consider valid career
+
+options, because she believes that she is not sufficiently well qualified.
+
+Even women who consider themselves to be as well qualified as most of their
+
+male peers may lower their career goals when they recognize the additional
+
+problems that women may face.  As widnall points out:
+
+
+
+"A second trend noted in [the Illinois valedicatorian Project] was the
+
+lowering of career ambitions by the women students.  The researchers linked
+
+lowered career ambitions in part to the unresolved dual-career problem.  .  .
+
+.  One of the most effective antidotes for these uncertainties about career
+
+goals was the opportunity for successful professional experiences:
+
+independent research, professional employment, opportunity for interaction
+
+with graduate students, and the support and encouragement of a faculty mentor
+
+[25, p. 1743]."
+
+
+
+Those who train women to become computer scientists need to become aware of
+
+the problem of diminished self-esteem, and work to combat it.  Toward this
+
+end, it is important to give students unambiguous feedback concerning the
+
+quality of their work, to provide equal attention to and have equal
+
+expectations of female and male students, and to increase awareness of
+
+different, especially less aggressive, communication styles.  In addition, it
+
+is essential to provide women with the opportunity for successful
+
+professional experiences.  computer science faculty need to make an effort to
+
+draw women into their research projects.  Whle this is of course true of
+
+faculty members training graduate students, efforts to include females in
+
+research projects should ideally begin at the undergraduate level.  Support
+
+must therefore be given to funding that will facilitate this, both at the
+
+national and institutional levels.  An example of a model program is the
+
+National Science Foundation's Research in Undergraduate Institutions (RUI)
+
+program [19], the goal of which is to provide research opportunities for
+
+undergraduates in the sciences.  RUI awards are limited to projects that
+
+include significant undergraduate participation.  By using programs such as
+
+the RUI to bring women to research early in their careers, faculty members
+
+may help combat diminished self-esteem in women and its impact on attrition.
+
+
+
+Mentoring and role Models
+
+
+
+Another major problem facing women in the process of becoming computer
+
+scientists is a shortage of mentors.  Mentors play a crucial, though usually
+
+informal, role in the training of young computer scientists.  In general, a
+
+mentor shares with a less experienced colleague information about how to get
+
+research funding, avenues for publication, the informal power structure
+
+within a department and within the discipline as a whole, and so on.  Mentors
+
+may invest a good deal of time in their junior colleagues and may offer them
+
+important opportunities for research collaboration.
+
+
+
+Currently, women are much more likely than men to be mentored by female
+
+faculty members [1, 19].  However, there is no reason that men cannot serve
+
+as mentors for women, given an appropriate sensitivity to the problems that
+
+women in computer science may face.  Indeed, because the number of women
+
+computer scientists shrinks as one progresses through the pipeline, it is
+
+unreasonable to expect senior women to mentor all of the junior women.  Men
+
+in computer science must also support younger women.
+
+
+
+Related to mentoring is the issue of role models.  While young computer
+
+scientists can benefit from mentors of either gender, it is desirable for
+
+women to be exposed to female role models.  A role model can serve as
+
+evidence that a successful career in computer science is not only a
+
+possibility, but a normal and unremarkable option for women.  The existence
+
+of role models does matter, and it matters to women at all stages of their
+
+careers.  For students, female faculty members prove, by their very
+
+existence, that Ph.D.  degrees and faculty slots can be attained by women
+
+[11, 12].  A similar phenomenon is true of female faculty members who serve
+
+as role models for their more junior colleagues.  Junior women who have
+
+access to senior female faculty members adjust to their positions and
+
+establish research programs more quickly than those who do not [7].
+
+
+
+Of course, the only real solution to the lack of role models is to increase
+
+the number of women in computer science: recall that only 6.5% of computer
+
+science and computer engineering faculty at the Taulbee institutions are
+
+female.  However, until this situation improves, programs that make
+
+successful women more visible can help.  Examples are programs that bring
+
+women scientists to campuses for a short period of time to give a talk, or
+
+for a longer period of time in a visiting faculty position.  Activities of
+
+the former sort can be encouraged by anyone who is involved in a departmental
+
+colloquium or seminar series.  Invitation for a longer period requires
+
+additional funding; one source of support is the NSF's Visiting
+
+Professorships for Woman program [22].
+
+
+
+At the undergraduate level, it is useful to design programs in which
+
+undergraduates are paired with female graduate students and/or faculty.
+
+Examples of successful programs of this kind include one run by the Women's
+
+Science and Engineering Network at Stanford University [24] and the Women in
+
+Science Program at the University of Michigan [25].  Such programs can have
+
+the additional benefit of providing graduate women with the experience of
+
+being viewed as capable and successful scientists.
+
+
+
+Finally, we should point out that role models are important even to
+
+precollege women.  Without sufficient role models, high school girls may end
+
+their mathematics and science training prematurely, thus precluding a major
+
+in science or engineering before they even begin college.  High school
+
+guidance counselors and math and science teachers can play a role here by
+
+encouraging capable young women to consider science and engineering as valid
+
+career options.  Several programs have been developed to encourage high
+
+school girls to acquire sufficient training to keep their options open.
+
+Perhaps the most extensive program of this kind is administered by the
+
+Math/Science Network, a non-profit organization that organizes conferences
+
+under the title of "Expanding Your Horizons in Science and Mathematics" [7].
+
+These conferences bring high school girls together with local female
+
+scientists.  Other more local programs include science fairs, sponsored by
+
+schools, scouting troops, or similar organizations, in which women are
+
+included among the judges.  To increase the influence of science fairs, they
+
+may be augmented with career awareness workshops in which participating
+
+students can meet with local scientists and engineers to learn about career
+
+paths and the educational prerequisites for technical careers.
+
+
+
+Discrimination
+
+
+
+The issue of gender discrimination is of course a large one, which cannot be
+
+discussed in great depth here.  By gender discrimination, we mean patronizing
+
+behavior and assumptions that women are less qualified and/or committed than
+
+men, regardless of whether the assumptions are conscious or unconscious.  A
+
+detailed discussion of the problem of gender discrimination as it relates to
+
+women in computer science departments can be found in the 1983 report
+
+"Barriers to Equality in Academia," which was written by a group of female
+
+graduate students and research staff in the computer science department at
+
+MIT [2].  This influential report notes that the cumulative effects of subtle
+
+discrimination may be even more harmful than relatively infrequent incidents
+
+of overt discrimination:
+
+
+
+"Often, subtle behavior is not recognized as discriminatory, for two reasons.
+
+First, the actions often are not intended to be discriminatory; the people
+
+who convey biased attitudes toward women may be well-intentioned.
+
+Nevertheless, the effect of their behavior is to undermine the professional
+
+image of women held by their colleagues and the women themselves.  Second,
+
+any particular incident might appear trivial when viewed by itself.  However,
+
+when women experience such incidents daily, the overall effect of the
+
+environment is much greater than the sum of the individual incidents.
+
+Because subtle discrimination is harder to recognize than overt
+
+discrimination, it sometimes does more damage.  Constant exposure to negative
+
+comments diminishes a woman's self-esteem and may lead her to believe that
+
+she cannot succeed [2, p. 3]."
+
+
+
+Several reports issued by the Project on the Status and Education of Women
+
+(PSEW) of the Association of American Colleges address the subject of gender
+
+discrimination as it relates to women undergraduates, graduate students, and
+
+faculty [10, 11].  These reports concur with the MIT report's observations on
+
+the chilling effect of cumulative incidents of discrimination:
+
+
+
+"Overtly disparaging remarks about women, as well as more subtle differential
+
+behaviors, can have a critical and lasting effect.  When they occur
+
+frequently--especially when they involve "gatekeepers" who teach required
+
+courses, act as advisors, or serve as chairs of departments--such behaviors
+
+can have a profound negative impact on women's academic and career
+
+development by: ...  causing students to switch majors or subspecialties
+
+within majors.  .  .  ; minimizing the development of the individual
+
+collegial relationships with faculty which are crucial for future
+
+professional development; dampening career aspirations; and undermining
+
+confidence [10, p. 3]."
+
+
+
+The PSEW reports, by documenting manifestations of both overt and subtle
+
+gender discrimination throughout academia, provide evidence that the problems
+
+described in the MIT report are not unique to computer science.
+
+
+
+A recent study of several science and engineering departments also draws the
+
+connection between gender discrimination and the effective exclusion of women
+
+from first-class citizenship in their departments.  The study states that
+
+"differential attention to women students was felt to promote performance
+
+stress while exclusion from informal relations was a career handicap" [6].
+
+
+
+A particular manifestation of the differential attention paid to females in
+
+the field is what has been called the "invisibility syndrome."  Not only is
+
+the percentage of women in computer science smaller than the percentage of
+
+women in the general population, but also, even within the field, women are
+
+underrepresented in many important professional activities.  Ideally, the
+
+representation of women in the perceived power structure of a community
+
+should reflect their numbers in that community.  One would expect reasonable,
+
+non-token representation of women on the editorial boards of technical
+
+journals; as guest editors of special issues of journals; on program
+
+committees of technical conferences; as invited speakers both at conferences
+
+and at departmental colloquia; on executive boards of professional
+
+organizations such as ACM and IEEE; and on policy boards such as the
+
+Computing Research Association (Formerly the Computer Research Board) and the
+
+Computer Science and Technology Board.
+
+
+
+Unfortunately, even those women who have been successful often appear to be
+
+invisible, and are not invited to participate in activities of this type to
+
+the same degree as their male counterparts.  One way to address this problem
+
+is to make people aware of it, so that those whose job it is to nominate or
+
+appoint people to boards, program committees, etc., can make a conscious
+
+effort to include qualified women.  Another solution, towards which some
+
+women in the field have begun to work, is to compile lists of qualified women
+
+in various areas of computer science who can be suggested to those who are
+
+responsible for issuing invitations and nominations.
+
+
+
+Not only do women often find themselves subject to the type of unintentional
+
+discrimination described so far, but they may also be confronted with
+
+instances of more overt discrimination or even sexual harassment.  It is
+
+therefore necessary that departments and universities develop and institute
+
+grievance procedures that guarantee confidentiality and freedom from
+
+retaliation.  We recommend further study of already implemented grievance
+
+procedures to determine policies necessary to ensure their effectiveness.
+
+
+
+The author of the MIT study, like those of the PSEW reports, state that
+
+"responsibility for change rests with the entire community, not just with the
+
+women," and that "many problems would be alleviated by increasing the number
+
+of women" [2, p. 1].  We agree completely, and recommend that the kinds of
+
+actions we have proposed elsewhere in the report be adopted to help increase
+
+women's representation in the field.
+
+
+
+Balancing Responsibilities
+
+
+
+A final issue that is of central concern involves the difficulties in
+
+balancing the responsibilities of a career in computer science with the
+
+responsibilities of raising a family.  Concern with this problem may lead
+
+young women to abandon the possibility of a career in computer science (or
+
+any other science) at a very early stage in their training, as indicated in
+
+the quotation from the Widnall report noted earlier ("researchers linked
+
+lowered career ambitions in part to the unresolved dual-career problem").
+
+Actual difficulties encountered in achieving this balance may result in women
+
+leaving computer science later in their careers.  Of course, in their concern
+
+with this problem, women considering or pursuing careers in computer science
+
+are not very different from women in a wide range of other careers--or, for
+
+that matter from many men in those careers.  Last April, a New York Times
+
+article noted, "Fathers, too, are seeking a balance between their families
+
+and careers."  However, while achieving such a balance may be difficult for
+
+people pursuing many different careers, there are certain aspects of a
+
+tenure-track position in a scientific field that render the balancing act
+
+particularly difficult [18].
+
+
+
+The typical "tenure-track" career path appears to be generally incompatible
+
+with outside interests and responsibilities including, but not limited to,
+
+childbearing and rearing.  Junior faculty in tenure-track positions (like
+
+junior lawyers working towards partnerships, junior investment bankers trying
+
+to become vice presidents, etc.) are expected to devote enormous amounts of
+
+time and energy to their careers: so much time and energy that serious
+
+outside interests are precluded or at least greatly constrained.  The model
+
+for an academic career was developed during a time in which faculty positions
+
+were primarily occupied by men who had wives to tend to their home
+
+responsibilities.  We call this the helpmate-in-the-background model.  It is
+
+one that is still present today: an illustration can be found in the
+
+acknowledgments statement of many academic books.  An example, from a recent
+
+book authored by a male computer scientist, includes a statement of gratitude
+
+to his wife "for sheltering [him] from the travails of the real world."
+
+
+
+The problem is that the helpmate-in-the-background model is inappropriate for
+
+today's society, in which both men and women should have the right, and often
+
+have the obligation, to have careers.  The model is most obviously
+
+inappropriate for women.  Women were the helpmates-in-the-background: they do
+
+not typically have helpmates of their own.
+
+
+
+Further complicating the situation is the fact of women's "biological
+
+clocks."  Most students do not complete the Ph.D.  until the middle or late
+
+20s and tenure is typically not granted until the middle 30s.  Hence, the
+
+childbearing years directly coincide with the period of time during which a
+
+woman is completing her Ph.D.  and working towards tenure.  Both rearing
+
+small children and achieving tenure are tremendously time-consuming efforts;
+
+doing both at the same time seems to many women to be exceptionally
+
+difficult, if not impossible [6].
+
+
+
+There are a number of things that can be done to help women achieve a balance
+
+between family responsibilities and career demands.  For example,
+
+universities can and should provide affordable, quality childcare.
+
+Sufficient maternity leave policies are also necessary.  Many universities
+
+have no formal leave policy at all, while others grant only minimal leaves
+
+(e.g., one month or less).  A few will allow women a semester off from
+
+teaching responsibilities, at reduced pay.  At those universities that do not
+
+offer this option, female faculty are often put in the position of having to
+
+try to "time" their babies for semesters that they had planned to take off
+
+anyway, such as summer semesters, sabbatical periods, or semesters during
+
+which they used grant money to "buy out" of teaching.  However, the first of
+
+these options is often not viable, since most computer science faculty do not
+
+have the summer off; instead, they use this period to work on research
+
+grants, generally a requirement for tenure.  The latter two options generally
+
+require that the woman already have tenure or at least be fairly close to it.
+
+Moreover, attempts to schedule a baby's arrival are far from reliable, and
+
+often fail.  Thus, better maternity leave policies are obviously needed.
+
+
+
+But solutions like these do not go far enough.  Fundamental changes in the
+
+patterns of academic careers are required.  These changes must rest on a
+
+realization that it is the responsibilities of parenting a small child, and
+
+not the responsibilities of mothering a small child, that are incompatible
+
+with current work requirements.  The model of a helpmate-in-the-background
+
+should be as untenable for men in today's society as it is for women.
+
+
+
+It is true that there are issues that will always be specific to
+
+women--pregnancy, childbirth, and lactation--and career paths must be
+
+designed with these in mind.  But there are other realities of women's lives
+
+that should be seen merely as traditionally women's.  Many of these can and
+
+should be shared by men.  For example, universities must develop not just
+
+maternal policies, but parental policies that will allow male as well as
+
+female faculty members to be involved in the rearing of small children.  Many
+
+universities today provide no parental leave at all.  Yet, fathers not only
+
+need time off immediately after the birth of a child, but also, like mothers,
+
+need reduced workloads for an extended period of time, to enable them to
+
+participate in the rearing of their small children.  Thus, another important
+
+policy that must be developed, for both men and women, involves changing the
+
+way in which the tenure clock operates.
+
+
+
+As with maternity leaves, different universities have different policies
+
+regarding slowing the tenure clock to allow a faculty member to care for a
+
+small child.  Differences involve: (1) whether any slowing of the tenure
+
+clock is allowed at all; (2) whether it is permitted only for the "primary
+
+caretaker" or whether it is permitted for both parents; (3) whether it is
+
+permitted for adoptions; (4) the period of time for which the clock is
+
+stopped (typically, one semester); (5) the number of children for which this
+
+is allowed (typically one, sometimes two).  In our view, some kind of reduced
+
+work load is essential to permit faculty members who wish to do so to better
+
+balance their family responsibilities with their careers.  Moreover, this
+
+option should be available to fathers as well as mothers.  There have been
+
+some doubts expressed about this solution: the claim is that fathers will
+
+"take advantage" of the situation by stopping the tenure clock even though
+
+they are not participating heavily in the rearing of their child.  The worry
+
+is that if this happens, the default tenure period will simply become seven
+
+years instead of six, and women who do take primary responsibility for the
+
+rearing of their children will once again be at a disadvantage.
+
+
+
+In our view, this possibility must be faced, but it appears that one solution
+
+is to make a strong effort not to change the standards for tenure.  That is,
+
+departments must continue to impose the same tenure requirements as they do
+
+now, but must assume that some faculty members will take seven or eight years
+
+to meet those requirements rather than six.  We need to expect that, at least
+
+in the beginning, some faculty members may take the extra year or two even if
+
+they do not have additional child-rearing demands.  As long as the standards
+
+are not raised, which would penalize those with additional responsibilities,
+
+this is not a dire consequence.
+
+
+
+Because the issues surrounding leave policies, deferred tenure, and related
+
+issues are so complex, we recommend a systematic study of policies in
+
+academic departments, to better evaluate the options.  It is even possible
+
+that the conclusion of such a study will be that the entire tenure process is
+
+incompatible with the demands of a dual-career society.  After all, the
+
+demands of rearing a small child do not stop after six weeks or one semester
+
+or even one year of a leave.  When the helpmate-in-the-background model is
+
+thrown out, it needs to be replaced with a much more flexible one in which
+
+people are free to move on and off of a "fast track" at different stages in
+
+their career, without those moves permanently jeopardizing that career.  This
+
+is exactly what tenure precludes: if a faculty member is not fully committed
+
+to his or her academic career during the very same period of time in which he
+
+or she is most likely to face the demands of raising small children, tenure
+
+is unlikely to be granted and the academic career will be permanently
+
+stalled.
+
+
+
+Although we have emphasized that the traditional helpmate-in-the-background
+
+model works against women with children, we believe it also works against
+
+women without children and men with employed wives.  Few of these people have
+
+such helpmates.
+
+
+
+In our view, it is important to work to change the helpmate-in-the-background
+
+mode.  It must be possible for both women and men to work hard and well at a
+
+career, without neglecting their personal lives.  We believe this will
+
+eventually be advatageous for both men and women.  There is great
+
+satisfaction to be found in one's work, but there is also great satisfaction
+
+to be found in one's personal life.  No one should have to choose one at the
+
+expense of the other.
+
+
+
+Reopening the Pipeline
+
+
+
+As a result of the kinds of problems we have discussed, many women have
+
+dropped out of the computer science pipeline prematurely.  Although we have
+
+been focusing on ways to reverse this trend, an additional approach to
+
+correcting the problem of underrepresentation is to help women reenter the
+
+pipeline after dropping out of it early.  One example of a particularly
+
+successful reentry program is the University of California at Berkeley
+
+program, which has been in existence since 1983.  It is aimed at making
+
+graduate study in computer science possible for women and minority students
+
+who have received a bachelor's degree in another field.  Students in the
+
+Berkeley reentry program take regular computer science courses along with
+
+undergraduates, and in addition receive a host of support services.  The
+
+program has been producing graduates for seven years now, and students who
+
+have completed the program have been quite successful in gaining admission to
+
+competitive graduate programs in computer science [9].
+
+
+
+A second set of women for whom reopening the pipeline may be useful are those
+
+with science degrees who are not employed in science.  A 1976 NSF program,
+
+called the Science Career facilitation (SCF) Projects, was aimed at such
+
+women.  This extensive program, which was later discontinued, funded 21
+
+projects in fields where women were poorly represented even though jobs were
+
+readily available.  Three of these 21 projects dealt with women reentering
+
+computer science.
+
+
+
+An evaluation of the SCF projects led to several important findings.  The
+
+primary reasons most women cited for having dropped out of science involved
+
+family responsibilities.  Research supported by the SCF projects surveyed
+
+more than 2000 organizations providing potential employment to scientists,
+
+and revealed that none of them attended to the needs of reentering women.
+
+Yet programs that do address this would appear to be very useful: after all,
+
+more than 585,000 women scientists expressed an interest in retraining and
+
+reentry.  Finally, the SCF projects that provided this retraining were quite
+
+successful: in total, 65% of the participants were reemployed in science
+
+while another 10% became full-time graduate students [15].
+
+
+
+Conclusions
+
+
+
+We have presented some of the problems facing women who are in the process of
+
+becoming computer scientists, as well as the women who are training them, and
+
+we have made recommendations for change (see sidebar).  There appear to be
+
+clear and relatively easily implemented solutions for some problems, while
+
+for others, such as the apparent conflict between child-rearing and gaining
+
+tenure, the issues are more complex and further study is required to develop
+
+effective solutions.  Indeed, complete resolution of some of these problems
+
+will depend upon significant societal changes.  Ultimately, everything hinges
+
+on increasing the number of women in the field.  We must make sure that
+
+increased representation of women is not stalled because of policies or
+
+practices of computer science educators or employers.
+
+
+
+Obviously, this article is not comprehensive.  We have not, for example,
+
+addressed problems unique to women in industrial computer science, nor have
+
+we considered how the problems we have described are exacerbated for women of
+
+color or disabled women.  We believe it is important that these issues be
+
+examined, but we leave them for other articles.
+
+
+
+(1) Statistics were also acquired from the U.S.  Bureau of Labor Statistics
+
+in a telephone conversation.
+
+
+
+References
+
+
+
+[1] Arnold K.  Retaining high-achieving women in science and engineering.  In
+
+AAAS Symposium on Women and Girls in Science and Technology, (July 1987).
+
+Univ.  of Michigan, Ann Arbor, Michigan.
+
+
+
+[2] Barriers to equality in academia: Women in computer science at MIT.
+
+Laboratory for Computer Science and the Artificial Intelligence Laboratory at
+
+M.I.T., 1983.
+
+
+
+[3] Burton, M. D.  Gender differences in professional socialization: A study
+
+of women and men becoming computer scientists.  Tech.  Rep., Carnegie- Mellon
+
+University, Pittsburgh, PA, June 1987.  Committee on Social Science Research
+
+in Computing, Social and Decision Sciences Department.
+
+
+
+[4] Changing America: The new face of science and engineering--Interim Rep.
+
+The Task Force on Women, Minorities, and the Handicapped in Science and
+
+Technology, Washington, D.C., 1988.
+
+
+
+[5] Changing America: The new face of science and engineering--Final Rep.
+
+The Task Force on Women, Minorities, and the Handicapped in Science and
+
+Technology, Washington, D.C., 1989.
+
+
+
+[6] Etzkowitz, H., Kemelgor, C., and Neuschatz, M.  The final disadvantage:
+
+Barriers to women in academic science and engineering.  Tech.  Rep.,
+
+Rensselaer Polytechnic Inst.  Center for Science and Technology.
+
+
+
+[7] Failor, B.  The History of EYH.  Math/Science Network Broadcast, (Winter
+
+1990), 5.
+
+
+
+[8] Gilbert, L., Gallesich, J. M., and Evans, S. L.  Sex of faculty role
+
+model and students' self-perceptions of competency.  Sex Roles 9, 5
+
+(597-607), 1983.
+
+
+
+[9] Grigolia, M.  Computer Science Reentry Program.  Comp.  Res.  News, 2, 2
+
+(april 19, 1990).
+
+
+
+[10] Hall, R. M. and Sandler, B. R.  The classroom climate: A chilly one for
+
+women?  Project on the Status and Education of Women, Association of American
+
+Colleges, Washington, D.C., 1982.
+
+
+
+[11] Hall, R. M. and Sandler B. R.  the classroom climate revisited: Chilly
+
+for women faculty, administrators, and graduate students.  Project on the
+
+Status and Education of Women, Association of American Colleges, Washington,
+
+D.C., 1986.
+
+
+
+[12] Hornig, L.S.  Women in science and engineering: Why so few?  Tech.
+
+Rev., 87, 8 (31)-41), 1984.
+
+
+
+[13] Huff, C. and Cooper, J.  Sex bias in educational software: The effect of
+
+designers' stereotypes on the software they design.  J. Applied Soc.  Psych.,
+
+17, 6 (1987), 519-532.
+
+
+
+[14] Kiesler, S., Sproull, L., and Eccles, J.S.  Pool halls, chips, and war
+
+games: Women in the culture of computing.  Psych.  of Women Q., 9 (1985),
+
+451-462.
+
+
+
+[15] Lantz, A.  An Evaluation of Programs for Reentry of Women Scientists.
+
+In S. Humphreys, Ed., Women and Minorities in Science: Strategies for
+
+Increasing Participation.  Westview Press, 1982).
+
+
+
+[16] Leveson, N. Women in computer science: A Report for the NSF CISE Cross
+
+Directorate Activities Advisory Committee, 1989.
+
+
+
+[17] Long, J. S.  The origins of sex differences in science.  Social Forces.
+
+To be published.
+
+
+
+[18] Marriage, family, and scientific careers: Institutional policy versus
+
+research findings.  American Association for the Advancement of Science.  In
+
+Proceedings of a Symposium at the Annual Meeting of the AAAS (1989).
+
+
+
+[19] NSF.  Research in undergraduate institutions (RUI).  Program
+
+Announcement, Directorate for Scientific, Technological, and International
+
+Affairs, 1989.
+
+
+
+[20] NSF.  Visiting professorships for women.  Grants for Research and
+
+Education in Science and Engineering Program Announcement, October 1989.
+
+
+
+[21] Report on women and minorities in science and engineering.  National
+
+Science Foundation, Washington, D.C., 1988.
+
+
+
+[22] Sloat, B.  Women in science: A university program of intervention,
+
+out-reach, and research.  In Second International Interdisciplinary Congress
+
+on Women (April 1984.  Gorningen, the Netherlands).
+
+
+
+[23] Sproull, L. S., Kiesler, S., and Zubrow, D.  Encountering an Alien
+
+Culture.  J. of Soc.  Issues 40, 3 (1984), 31-48.
+
+
+
+[24] Sursock, A.  The women's science and engineering network.  European
+
+Journal of Physics, 8, 2 (1987), 151-152.
+
+
+
+[25] Widnall, S. E.  AAAS Presidential Lecture: Voices from the pipeline.
+
+Science, 2 1 (1988), 1740-1745.
+
+
+
+[26] Zappert, L. T., and Stanbury, K.  In the pipeline: A comparative
+
+analysis of men and women in graduate programs in science, engineering, and
+
+medicine at Stanford University.  Tech.  Rep.  Working Paper 20, Institute
+
+for Research on Women and Gender, Standford University Stanford, CA, 1984.
+
+
+
+THE AUTHORS:
+
+
+
+AMY PEARL has an M.S.  from Stanford University and is currently a member of
+
+the technical staff at Sun Microsystems.  Her interests include development
+
+of software tools and mechanisms in the areas of hypertext and large software
+
+engineering projects.
+
+
+
+MARTHA E. POLLACK received a Ph.D.  from the University of Pennsylvania and
+
+is presently a computer scientist in the Artificial Intelligence Center at
+
+SRI International and a senior researcher at the Center for the Study of
+
+Language and Information at Stanford University.  Her research interests
+
+include AI plan generation and recognition and experimental evaluation of AI
+
+systems.
+
+
+
+EVE RISKIN is an assistant professor in the Department of Electrical
+
+Engineering at the University of Washington.  She holds a Ph.D.  from
+
+Stanford University and her research interests include image compression and
+
+processing, medical imaging and pattern recognition.
+
+
+
+BECKY THOMAS is a Ph.D.  candidate in the Computer Science Department at
+
+Stanford University.  Her research area is formalisms for representing and
+
+reasoning about time, knowledge and action.
+
+
+
+ELIZABETH WOLF is a Ph.D.  candidate in the Computer Science Department at
+
+Stanford University where she earned her M.S.  Her research interests include
+
+mathematical theory of computation and formal verification.
+
+
+
+ALICE WU is pursuing an M.S.  in computer science from Stanford University.
+
+Her concentration is in software systems design, with emphasis on user
+
+interface and human-computer interaction.
+
+
+

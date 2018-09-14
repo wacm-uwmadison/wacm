@@ -1,0 +1,58 @@
+<!--#include virtual="includes/header.shtml" -->
+<!--#include virtual="includes/left_sidebar.shtml" -->
+
+<!-- 	CONTENT -->
+<div class="content1">
+
+    <!-- Page title -->		
+    <div class="content1-pagetitle">Undergraduate Research</div>			
+
+    <!-- Text container -->
+    <div class="content1-container line-box">
+        <div class="content1-container-1col">
+
+            <div class="content-txtbox-noshade">
+                <p>
+                The summer programs listed here are research oriented. These programs are great opportunities
+                for an undergraduate who is interested in continuing to graduate school because it will help to
+                strengthen her application and give her an opportunity to explore research before reaching
+                graduate school.
+                </p>
+                <h3>CRA-W</h3>
+                <p>
+                The CRA-W Distributed Research Experience for Undergraduates (DREU) is a program for undergraduates where the undergraduate student has the opportunity to spend the summer conducting research at another university with a faculty member at that university. For more information on the program, including application information and eligibility criteria, see <a href="http://www.cra-w.org/dreu">here</a>.
+                </p>
+                <p>
+                The CRA-W Collaborative Research Experience for Undergraduates (CREU) is a program where a group of students can apply for funding from CRA-W to work on a project with a professor at their university during the school year. The funding can be used for a stipend for the students or for travel to conferences. For more information, including the application, eligibility criteria, and deadlines, see <a href="http://www.cra-w.org/creu">here</a>.
+                </p>
+                <!--
+                <h3>NSF-STC</h3>
+                <p>
+                The NSF-STC Summer Undergraduate Internship Program is a National Science Foundation
+                Science and Technology Centers (STCs) paid summer internship where undergraduate students
+                are given the opportunity to conduct research. Application information and eligibility
+                requirements can be found <a href="http://www.nsfstc.org/undergraduate_internships.htm">here</a>.
+                <h3>URO Zone Web site</h3> 
+                <p>
+                URO Zone provides links to a range of summer undergraduate research resources. It also posts profiles of undergraduates and details their recent computing research projects. URO Zone offers guidelines to help discover research opportunities in a variety of areas, from applied to theoretical computer science. It also defines specific research fields, describes CRA and ACM undergraduate awards programs, and lists links for finding computing research opportunities. Learn more about the URO Zone - Undergraduate Research Opportunities <a href="http://cra.org/ccc/uro-zone.php" target = "_blank">here</a>.
+                </p>
+                -->
+
+                <h3>CS URGE</h3>
+                 <p>
+                The Computing Research Association (CRA) has put together a new website to help undergrads find summer research opportunities and resources for applying to graduate school. Check out <a href='http://cra.org/ccc/csurge'>CS URGE: Computer Science Undergraduate Research and Graduate Education</a>.
+                
+                <h3>Other sources</h3>
+                <p>
+                The NSF maintains a list of Research Experience for
+                Undergraduates 
+                <a href="http://www.nsf.gov/crssprgm/reu/">programs</a>
+                broken down by discipline. The CS one is <a
+                    href="http://www.nsf.gov/crssprgm/reu/list_result.cfm?unitid=5049">here</a>.
+                </p> </div> </div> </div>
+
+
+</div>
+
+<!--#include virtual="includes/right_sidebar.shtml" -->
+<!--#include virtual="includes/footer.shtml" -->

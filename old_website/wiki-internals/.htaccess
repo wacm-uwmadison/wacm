@@ -1,0 +1,8 @@
+AuthType shibboleth
+ShibRequestSetting requireSession 1
+ShibRequestSetting redirectToSSL 443
+Require user jacobson@CS.WISC.EDU
+Require user lena@CS.WISC.EDU
+Require user aterrell@CS.WISC.EDU
+Require user irene@CS.WISC.EDU
+Require user somayeh@CS.WISC.EDU

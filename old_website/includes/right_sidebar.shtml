@@ -1,0 +1,33 @@
+<!-- SIDEBAR -->		
+<div class="sidebar">
+
+    <!-- Main Title -->
+    <p class="sidebar-maintitle">Useful Links</p>
+    <!-- Textbox -->  
+    <p class="sidebar-title-noshade">Questions about majoring in Computer Sciences?</p>
+    <div class="sidebar-txtbox-noshade">
+        <p>Join our <a href="/wacm/mentoring.html">mentoring program</a>!</p>
+    </div>	
+    <!-- Textbox -->
+    <p class="sidebar-title-noshade">Looking for Funding?</p>
+    <div class="sidebar-txtbox-noshade">
+        <p>Check out our fellowship listing <a href="/wacm/fellowships.html">here</a>!</p>
+    </div>
+
+    <!-- Textbox -->
+    <p class="sidebar-title-noshade">Not sure what graduate school looks like?</p>
+    <div class="sidebar-txtbox-noshade">
+        <p>Check out the undergraduate research opportunities <a href="/wacm/undergrad.html">here</a>!</p>
+    </div>
+
+    <p class="sidebar-title-noshade">Interested in UW-Madison's ACM Chapter?</p>
+    <div class="sidebar-txtbox-noshade">
+        <p> Check out <a href="http://www.cs.wisc.edu/sacm/">SACM</a>!</p>
+    </div>										
+
+    <p class="sidebar-title-noshade">Follow us on Facebook!</p>
+    <center>
+        <a href='https://www.facebook.com/UWMadisonWACM'><img src='/wacm/img/FB-LikeButton-online-58.png'></a>
+    </center>
+
+</div>

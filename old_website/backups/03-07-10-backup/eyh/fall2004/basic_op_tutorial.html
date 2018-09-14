@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head>
+<meta name="generator" content="HTML Tidy, see www.w3.org">
+<title>Logo Tutorial: Basic Operations</title>
+<style type="text/css">
+body { color: #990099; }
+li { font-size: 12pt; }
+pre { font-size: 14pt; color: black; background-color: #FFFFCC }
+tt { color: black; font-weight: bold; }
+.new { font-weight: bold; }
+</style>
+</head>
+<body>
+<h2>Logo Tutorial: Basic Operations</h2>
+<p>For each step, you should add the code as described and then click on the <tt>Draw</tt> 
+button to see your code execute.  Follow these steps to get started.</p>
+<ol>
+<li>Add a main procedure. This is required for Logo programs.</li>
+<pre>
+procedure main
+end
+</pre>
+<li>Add code to draw a line.  Try changing the value from <tt>100</tt> to other
+values, like <tt>20</tt>, <tt>333</tt> and even <tt>-10</tt>.  What happens when you let the turtle <tt>Draw</tt>?</li>
+<pre>
+procedure main
+    <span class="new">go 100</span>
+end
+</pre>
+<li>Add code to turn your turtle left before drawing the line.
+The number <tt>57</tt> is the number of degrees to turn.</li>
+<pre>
+procedure main
+    <span class="new">left 57</span>
+    go 100
+end
+</pre>
+<li>Change the color of the line to red. 
+Try adding the <tt>color</tt> line after the <tt>go</tt> line. 
+Next, try it as shown here.</li>
+<pre>
+procedure main
+    <span class="new">color green</span>
+    left 57
+    go 100
+end
+</pre>
+
+<li>Create your own custom procedure that you can call from the <tt>main</tt> procedure.
+Change the <tt>main</tt> procedure so that it calls the new procedure.
+</li>
+<pre>
+procedure main
+    color green
+    <span class="new">goto goLeft</span>
+end
+
+<span class="new">procedure goLeft
+    left 57
+    go 100
+end</span>
+</pre>
+<br><br><br><br>
+<li>Add parameters (variables that can change) to your procedure
+and add the value to the main procedure.</li>
+
+<pre>
+procedure main
+    color green
+    goto goLeft<span class="new">, degrees=57, steps=100</span>
+end
+
+procedure goLeft
+    left <span class="new">degrees</span>
+    go <span class="new">steps</span>
+end
+</pre>
+
+<li>Add code to call your procedure again with different values.</li>
+
+<pre>
+procedure main
+    color green
+    goto goLeft, degrees=<span class="new">0</span>, steps=<span class="new">50</span>
+    color red
+    <span class="new">goto goLeft, degrees=45, steps=50</span>
+end
+
+procedure goLeft
+    left degrees
+    go steps
+end
+</pre>
+
+<li>Add code that repeats your procedure several times.</li>
+<pre>
+procedure main
+    color green
+    goto goLeft, degrees=0, steps=50</span>
+    color red
+    <span class="new">repeat 8,</span> goLeft, degrees=45, steps=50
+end
+</pre>
+
+<li>Add a new procedure named <tt>goRight</tt> that does the same thing as
+<tt>goLeft</tt>, but for turning right.</li>
+<pre class="new">
+procedure goRight
+    right degrees
+    go steps
+end
+</pre>
+
+<li>Now, try the <tt>Load Maze</tt> button and write code so that the
+turtle draws a path that follows the maze that is shown.</li>
+</ol>
+
+
+
+</body>
+</html>
