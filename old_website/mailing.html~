@@ -1,0 +1,27 @@
+<!--#include virtual="includes/header.shtml" -->
+<!--#include virtual="includes/left_sidebar.shtml" -->
+
+<!-- 	CONTENT -->
+<div class="content1">
+
+    <!-- Page title -->		
+    <div class="content1-pagetitle">WACM Mailing List</div>			
+
+    <!-- Text container -->
+    <div class="content1-container line-box">
+        <div class="content1-container-1col">
+
+            <div class="content-txtbox-noshade">
+                <p>The mailing list is a generally low volume list used for announcements of upcoming events and so forth. The list is maintained by the <a href="http://www.cs.wisc.edu/csl" target="_top">CSL</a> using the <a href="http://www.gnu.org/software/mailman/" target="_top">Mailman</a> program.</p>
+
+                <p>You can subscribe to the list by going to the <a href="https://lists.cs.wisc.edu/mailman/listinfo/wacm" target="_top">subscription page</a>. Please subscribe with your wisc.edu or cs.wisc.edu email address.
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+			
+<!--#include virtual="includes/right_sidebar.shtml" -->
+<!--#include virtual="includes/footer.shtml" -->

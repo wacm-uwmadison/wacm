@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head>
+<meta name="generator" content="HTML Tidy, see www.w3.org">
+<title>Logo Tutorial</title>
+<style type="text/css">
+tt, pre { font-weight: bold }
+</style>
+</head>
+<body>
+<h1>Logo Tutorial</h1>
+
+<h3>Telling Logo Where To Go</h3>
+
+<p>Getting Logo to move around is easy, just tell him where to go
+and he'll do it. Logo always looks in a special place for
+instructions. That place is the first line inside the <em>main</em>
+procedure. Press the <em>Load Code</em> button to load the code
+provided for you into the pane on the right side of your Logo
+Application window. At the top of your screen you'll see this:</p>
+
+<pre>
+    <code>procedure main
+    end</code>  
+</pre>
+
+<p>Put the instructions you want Logo to follow below
+<code>procedure main</code> and above <code>end</code>.</p>
+
+<p>To get started, you'll need just three simple instructions. The
+first instruction, <code>go</code>, is your way of telling Logo
+to walk forward in the direction he's facing. To get Logo to walk
+forward 50 steps, type <code>go 50</code>. Remember
+to type this <em>inside</em> the main procedure. Press the
+<em>draw</em> button and watch Logo walk forward 50 steps.</p>
+
+<p>The other two instructions, <code>rt</code> and
+<code>lt</code> tell Logo which way to turn and how much. For
+example, to make Logo turn right 90 degrees, type <code>rt 90</code>.
+If you don't remember how degrees work, take a look at this 
+<a href="./degrees.html">explanation</a>.</p>
+
+<h3>The Maze</h3>
+
+<p>Your first challenge is to get Logo out of the maze. Use the
+<em>Load Maze</em> button on your LogoApplication to draw the maze.
+Now use the instructions you just learned, <code>go</code>,
+<code>rt</code>, and <code>lt</code> to get Logo out
+of the maze. Let us know if you need help or hints.</p>
+
+<h3>Animation</h3>
+<p>Logo moves so fast that you really can't see him move, you can 
+only tell where he's been by the line he draws as he moves.
+To slow Logo down enough that you can see him moving, we wrote
+a <em>procedure</em>, <code>logo</code>. It is one of the procedures 
+that was loaded when you pressed the <em>Load Code</em> button.
+You can use <code>logo</code> instead of <code>go</code> to tell
+Logo to move slowly. To tell Logo to take 50 steps, <em>slowly</em>,
+type <code>goto logo, steps = 50</code>. Unfortunately, on some 
+of your computers the screen will flicker a lot when Logo moves 
+slowly. What can we say, animation is tricky.</p>
+   
+
+<h3>Syntax</h3>
+<p>Some of you may have experienced problems by now. If you forgot
+to put your instructions inside the main procedure then you 
+got an error. Also, every computer language requires you to follow
+very precise rules when writing instructions. These rules are known
+as the <em>syntax</em> of the language. If you do not follow these
+rules <em>precisely</em> Logo will not be able to underestand your
+instructions.</p>
+
+<p>So far, you've used four Logo commands. The first three commands,
+<code>go</code>, <code>rt</code> and <code>lt</code>
+just tell Logo how to move. The fourth, <code>goto</code>, allows
+you to call a procedure.</p>
+
+<h4>Calling Procedures</h4>
+
+<p>The syntax for calling procedures is:</p>
+
+<code>goto</code> <var>procedure name</var><code>,</code>
+<var>parameter</var> <code>=</code> <var>value</var> 
+
+<p>In <code>goto logo, steps = 50</code></p>
+
+<ul>
+<li><var>procedure name</var> is <code>logo</code></li>
+
+<li><var>parameter</var> is <code>steps</code></li>
+
+<li><var>value</var> is <code>50</code>.</li>
+</ul>
+
+<p>Some procedures have no parameters, so the syntax for calling
+them is just:</p>
+
+<code>goto</code> <var>procedure name</var> 
+
+<p>Other procedures have two parameters, and the syntax for calling
+them is:</p>
+
+<code>goto</code> <var>procedure name</var><code>,</code>
+<var>parameter1</var> <code>=</code>
+<var>value1</var><code>,</code> <var>parameter2</var>
+<code>=</code> <var>value2</var> 
+
+<p>Can you figure out what the syntax for calling a procedure that
+has three parameters would be?</p>
+
+<h3>Write Your Own Procedure</h3>
+
+<p>You can make procedures of your own if you want. The syntax for
+any procedure is the same as that for the main procedure:</p>
+
+<pre>
+<code>procedure</code> <var>procedure name</var>
+  <var>procedure body</var>
+<code>end</code>
+</pre>
+
+<p>In the main procedure you just wrote,</p>
+
+<ul>
+<li><var>procedure name</var> is <code>main</code></li>
+
+<li><var>procedure body</var> is the code you wrote to get Logo out
+of the maze</li>
+</ul>
+
+<p>Do not call your procedure <code>main</code>; <code>main</code>
+is a special word reserved for the main procedure.</p>
+
+<p>Try writing a procedure to draw a simple shape: a square or a
+triangle or a rectangle. This is an example of a procedure to draw
+a pentagon (a five-sided figure).</p>
+
+<pre>
+<code>procedure pentagon
+    goto logo, steps = 50
+    rt 360/5
+    goto logo, steps = 50
+    rt 360/5
+    goto logo, steps = 50
+    rt 360/5
+    goto logo, steps = 50
+    rt 360/5
+    goto logo, steps = 50
+    rt 360/5
+end
+</code>
+</pre>
+
+<p>Notice that Logo can do simple math; instead of bothering to
+calculate 360/5 for myself, I let Logo do it.Also, I used the 
+<code>logo</code> procedure because I wanted Logo to move slowly. 
+If you want Logo to move rapidly, use the <code>go</code> command instead.
+Go ahead and call your
+procedure inside your <em>main</em> method. Use the
+<em>Clear</em> button to get rid of the maze.</p>
+
+<h3>Parameterize Your Procedure</h3>
+
+<p>The <em>pentagon</em> procedure is nice, but it could be better.
+Right now, it only makes one size of pentagon, one where Logo
+takes 50 steps on each side. If I make the number of steps that
+Logo takes a parameter of the procedure, then I can use the same
+procedure to draw pentagons of any size.</p>
+
+<pre>
+  
+<code>procedure pentagon
+    goto logo, steps = side
+    rt 360/5
+    goto logo, steps = side
+    rt 360/5
+    goto logo, steps = side
+    rt 360/5
+    goto logo, steps = side
+    rt 360/5
+    goto logo, steps = side
+    rt 360/5
+end
+</code>  
+  
+ 
+</pre>
+
+<p>The new procedure uses the variable, <code>side</code> for the
+number of steps, instead of the number 50. Now, if I want Logo to
+draw a really small pentagon, I call <code>pentagon</code> like
+this: <code>goto pentagon, side = 10</code>. If I want Logo to draw
+a really large pentagon, I call <code>pentagon</code> like this:
+<code>goto pentagon, side=200</code>. Of course, if Logo tries do
+draw a pentagon that big, he might walk right off the drawing
+space. Can you parameterize your procedure in the same way?</p>
+
+<h3>More Logo Instructions</h3>
+
+<p>Logo <em>commands</em> are the fundamental building blocks of
+the Logo language. So far, you've used just four commands, 
+<code>go</code>, <code>rt</code>, and <code>lt</code> and the
+<code>goto</code> command for calling a procedure. Press the
+<em>Logo Syntax</em> button in LogoApplication to see the other
+commands you can use.</p>
+
+<p>The <code>repeat</code>
+command is very powerful. 
+You can use this command to call a procedure many times.
+These two procedures use <code>repeat</code> to draw a spiral. 
+These procedures were also loaded when you pressed the <em>Load Code</em>
+button. Try calling <code>spiral</code> from your main procedure. 
+Feel free to change <code>spiral</code> or <code>spiralhelper</code> 
+and see how that changes what Logo does.</p>
+
+<pre>
+  <code>procedure spiralhelper
+    goto logo, steps = loop
+    rt 50
+  end
+
+  procedure spiral
+    repeat 100, spiralhelper
+  end
+</code>  
+ 
+</pre>
+
+<h3>Finishing Up</h3>
+
+<p>Do you want to save a procedure you wrote so you can use it
+later? To do that, open the <em>Notepad</em> application on your
+computer, copy the procedure into a Notepad document, and save it
+to the <tt>EYH</tt> folder on your Desktop.  Name the file <tt>your_name_here.logo</tt>.
+We'll post your procedure on the
+main page so that you can access it anytime you want.</p>
+</body>
+</html>
+

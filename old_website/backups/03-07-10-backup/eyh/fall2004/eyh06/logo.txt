@@ -1,0 +1,19 @@
+procedure main
+goto logo,steps=9
+lt 90
+go 250
+rt 90
+go 60
+rt 90
+go 250
+lt 90
+go 50
+lt 65
+go 270
+rt 65
+go 70
+rt 90
+go 300
+rt 90
+go 350
+end
