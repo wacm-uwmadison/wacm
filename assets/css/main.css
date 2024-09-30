@@ -1160,7 +1160,7 @@
 /* Banner */
 
 	.banner {
-		background-image: url("../../images/Banner_Blank.jpg");
+		background-image: url("../../images/Banner_Blank.png");
 		background-size: cover;
 		background-position: center;
 		text-align: center;		
@@ -1180,7 +1180,7 @@
 		}
 
 		.banner.main {
-			background-image: url("../../images/Banner_Logo.jpg");
+			background-image: url("../../images/Website_Header.png");
 			height: 27.75em;
 		}
 
@@ -1212,7 +1212,7 @@
 				}
 				
 			.banner.main {
-				height: 16em;
+				height: 22em;
 			}
 
 		}
