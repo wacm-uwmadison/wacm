@@ -280,7 +280,7 @@
 	h2 {
 		font-size: 1.75em;
 		line-height: 1em;
-		color: #1193CE;
+		color: #0f6692;
 		margin: 0 0 0.5em 0;
 	}
 	
@@ -289,7 +289,7 @@
 		font-weight: 700;
 		line-height: 1.25em;
 		padding-bottom: 0.5em;
-		color: rgba(0,0,0,0.65) !important;
+		color: rgba(1, 6, 9, 0.65) !important;
 	}
 
 	sub {
@@ -335,7 +335,7 @@
 	}
 
 	input, select, textarea {
-		color: #25383B;
+		color: #1a2426;
 	}
 
 	a {
@@ -1417,4 +1417,26 @@
 		}
 
 
-	
+		.icon-container {
+			text-align: center;
+			margin-top: 10px;
+			margin-left: -12px;
+		  }
+		  
+		  .icon-linkedin {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background-color: #0373af;
+            color: white;
+            font-size: 24px;
+            text-decoration: none;
+            margin: 0 auto;
+          }
+		  
+		  .icon-linkedin:hover {
+			color: #005983;           /* Darken the blue color when hovered */
+		  }
