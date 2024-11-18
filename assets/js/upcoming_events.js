@@ -25,16 +25,23 @@ document.addEventListener("DOMContentLoaded", () => {
       row.appendChild(dateCell);
   
       const detailsCell = document.createElement("td");
-      let eventHTML = `
+      let eventHTML;
+
+      if (event.imgSrc) {
+        eventHTML = `
         <h3>${event.title}</h3>
-        <img class="card-img-top" src="${event.image}" alt="Event Image" width="50%" align="right">
+        <img class="card-img-top" src="${event.imgSrc}" alt="Event Image" width="50%" align="right">
         <br>${event.description}
         <br><br><a href="${event.rsvpLink}">RSVP here!</a>
         <br><br><b>Location:</b> ${event.location}
       `;
-
-      if (event.imgSrc) {
-        eventHTML += `<img class="card-img-top" src="${event.image}" alt="Event Image" width="50%" align="right">`;
+      } else {
+        eventHTML = `
+        <h3>${event.title}</h3>
+        <br>${event.description}
+        <br><br><a href="${event.rsvpLink}">RSVP here!</a>
+        <br><br><b>Location:</b> ${event.location}
+      `;
       }
 
       detailsCell.innerHTML = eventHTML;
