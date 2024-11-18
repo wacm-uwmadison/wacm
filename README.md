@@ -10,7 +10,7 @@ To contribute to this page, use the following recommended steps:
    - type './update.sh' into terminal. Congratulations! You updated the website.
 3. If you have Windows:
    - Download Git Bash for Windows.
-   - type './update.sh' into terminal. Congratulations! You updated the website.
+   - type './update.sh' into Git Bash. Congratulations! You updated the website.
 ## The hard way:
 1. Create a new branch for development
 2. Once you're satisfied with the changes on your **dev** branch, create a pull request to merge your code into **master**
@@ -18,4 +18,8 @@ To contribute to this page, use the following recommended steps:
 4. *cd* into the website directory and *pull* changes from **master**
 5. You should see your code live on the site!
 
-      
+## How to add events:
+1. Navigate to posts>whichever events list you need (past or upcoming)
+2. Fill out the JSON format at the top of the file.
+3. Insert your JSON at the top of the array.
+4. Deploy your changes. Congratulations! You updated events. 
