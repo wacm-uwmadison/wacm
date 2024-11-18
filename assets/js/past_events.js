@@ -15,11 +15,11 @@ document.addEventListener("DOMContentLoaded", () => {
       const detailsCell = document.createElement("td");
       let eventHTML = `
         <h3>${event.title}</h3>
-        <img class="card-img-top" src="${event.image}" alt="Event Image" width="50%" align="right">
         <br>${event.description}
         <br><br><a href="${event.rsvpLink}">RSVP here!</a>
         <br><br><b>Location:</b> ${event.location}
       `;
+      //<img class="card-img-top" src="${event.image}" alt="Event Image" width="50%" align="right">
 
       detailsCell.innerHTML = eventHTML;
       row.appendChild(detailsCell);

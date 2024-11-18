@@ -13,7 +13,7 @@ const past_events_list = [
     "date": { "month": "November", "day": "13", "time": "1:00 pm - 2:00 pm CT" },
     "title": "Biweekly Lunch: Course Edition",
     "description": "Hello everyone! We hope you are all taking time to yourself today and taking care of your mental health. We are here for any support always. Here is our flyer for our next Biweekly Lunch next week Wednesday Nov. 13 1-2pm!! We hope to see everyone there as we'll be connecting with each other about classes and asking for course enrollment advice. + Free Lunch!!!",
-    "imgSrc": "images\biweekly111324.png",
+    "imgSrc": "images/biweekly111324.png",
     "rsvpLink": "https://forms.gle/AbwbXvT2VQK9VnhB6",
     "location": "Computer Sciences 3310"
   },
@@ -21,7 +21,7 @@ const past_events_list = [
     "date": { "month": "November", "day": "8", "time": "4:00 pm" },
     "title": "WACM x WAISI Trivia Night",
     "description": "Come join us and WAISI, the Wisconsin AI Safety Initiative, for some free pizza and the chance to win some gift cards Perfect for using for yourself, or regifting for the holidays!\n This event will be hosted November 8th at 4PM in CS1240.",
-    "imgSrc": "images\CSTriviaNight.png",
+    "imgSrc": "/images/CSTriviaNight.png",
     "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSe4ikD5lLhIbxhYgRZv9T4Gfc0aetBZRxI0-FVhEPv5sGxcMw/viewform",
     "location": "Computer Sciences 1240"
   },
